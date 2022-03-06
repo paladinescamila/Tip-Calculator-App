@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+@import "variables.scss";
+@import "form.scss";
+@import "results.scss";
+@import "normalize.scss";
+
+/* Reset */
+* {
+	font-family: "Space Mono", monospace;
+	box-sizing: border-box;
+	outline: none;
+}
+
+/* Main */
+body {
+	background-color: $light-grayish-cyan-1;
+	width: 100vw;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	& > img {
+		width: 70px;
+		margin-bottom: 5em;
+	}
+}
+
+.card {
+	background-color: $white;
+	border-radius: $medium-border-radius;
+	width: 700px;
+	height: fit-content;
+	padding: 2em;
+	display: grid;
+	grid-gap: 2em;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 750px) {
+	.card {
+		width: 90%;
+	}
+}
+
+@media (max-width: 600px) {
+	body {
+		justify-content: center;
+	}
+	body > img {
+		margin: 3em 0;
+	}
+	.card {
+		grid-template-columns: 1fr;
+		height: fit-content;
+	}
+}
+
+@media (max-width: 500px) {
+	.card {
+		width: 100%;
+	}
+}

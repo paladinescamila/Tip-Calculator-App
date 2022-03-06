@@ -1,0 +1,112 @@
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+legend {
+	width: 100%;
+
+	&:nth-of-type(2),
+	&:nth-of-type(3) {
+		margin-top: 2em;
+	}
+
+	div {
+		position: relative;
+
+		img {
+			position: absolute;
+			left: 0;
+			height: 100%;
+			padding: 1em;
+		}
+
+		input {
+			padding: 0.7em;
+			border-radius: $small-border-radius;
+			background-color: $light-grayish-cyan-2;
+			text-align: end;
+		}
+	}
+}
+
+label {
+	display: block;
+	margin-bottom: 0.7em;
+}
+
+label,
+button {
+	font-weight: bold;
+	color: $dark-grayish-cyan-2;
+	font-size: $small-font-size;
+}
+
+input {
+	color: $very-dark-cyan;
+	font-weight: bold;
+	font-size: $medium-font-size;
+	border: 2.5px solid transparent;
+
+	&:focus {
+		border-color: $strong-cyan;
+	}
+}
+
+.bill input,
+.n-people input {
+	width: 100%;
+	padding-left: 2em;
+
+	&::placeholder {
+		opacity: 0.5;
+	}
+}
+
+.n-people {
+	position: relative;
+}
+
+.no-zero {
+	display: none;
+	font-weight: bold;
+	font-size: $small-font-size;
+	color: $red;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.select-tip-buttons {
+	display: grid;
+	grid-gap: 0.7em;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+
+	button {
+		border: none;
+		background-color: $very-dark-cyan;
+		color: $white;
+		border-radius: $small-border-radius;
+
+		&:hover {
+			background-color: $strong-cyan-3 !important;
+			color: $very-dark-cyan !important;
+		}
+	}
+
+	input {
+		text-align: center;
+		width: 100%;
+		padding: 0.5em 0.7em;
+		cursor: pointer;
+	}
+}
+
+@media (max-width: 380px) {
+	.select-tip-buttons {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(3, 1fr);
+	}
+}

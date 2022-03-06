@@ -1,11 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Tip calculator app</title>
-</head>
-<body>
-	Holi
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tip calculator app</title>
+		<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+	<body>
+		<img src="img/logo.svg">
+		<section class="card">
+			<form>
+				<legend class="bill">
+					<label for="bill">Bill</label>
+					<div>
+						<img src="img/icon-dollar.svg" alt="Dollar icon">
+						<input type="number" placeholder="0" id="bill" />
+					</div>
+				</legend>
+				<legend class="select-tip">
+					<label>Select Tip %</label>
+					<div class="select-tip-buttons">
+						<button type="button" id="tip-5">5%</button>
+						<button type="button" id="tip-10">10%</button>
+						<button type="button" id="tip-15">15%</button>
+						<button type="button" id="tip-25">25%</button>
+						<button type="button" id="tip-50">50%</button>
+						<div>
+							<input type="number" placeholder="Custom" id="custom-tip">
+						</div>
+					</div>
+				</legend>
+				<legend class="n-people">
+					<label for="">Number of people</label>
+					<p class="no-zero" id="no-zero">Can't be zero</p>
+					<div>
+						<img src="img/icon-person.svg" alt="Person icon">
+						<input type="number" placeholder="0" id="n-people" />
+					</div>
+				</legend>
+			</form>
+			<div class="results">
+				<div>
+					<div class="results-item">
+						<div>
+							<p>Tip Amount</p>
+							<p>/person</p>
+						</div>
+						<p id="tip-amount"></p>
+					</div>
+					<div class="results-item">
+						<div>
+							<p>Total</p>
+							<p>/person</p>
+						</div>
+						<p id="total"></p>
+					</div>
+				</div>
+				<button type="button" id="reset">RESET</button>
+			</div>
+		</section>
+		</div>
+	</body>
+	<script src="js/scripts.js"></script>
 </html>

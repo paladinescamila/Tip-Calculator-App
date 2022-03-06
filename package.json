@@ -1,0 +1,23 @@
+{
+	"name": "tip-calculator-app",
+	"version": "1.0.0",
+	"description": "This is a [Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX) built with HTML, CSS and JavaScript.",
+	"main": "scripts.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"scss": "node-sass --watch scss -o css"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/paladinescamila/Tip-Calculator-App.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/paladinescamila/Tip-Calculator-App/issues"
+	},
+	"homepage": "https://github.com/paladinescamila/Tip-Calculator-App#readme",
+	"dependencies": {
+		"node-sass": "^7.0.1"
+	}
+}

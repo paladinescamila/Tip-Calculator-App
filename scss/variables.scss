@@ -1,0 +1,30 @@
+// Colors
+$strong-cyan: hsl(172, 67%, 45%);
+$strong-cyan-2: hsl(173, 74%, 66%);
+$strong-cyan-3: hsl(171, 68%, 76%);
+$very-dark-cyan: hsl(183, 100%, 15%);
+$dark-grayish-cyan-1: hsl(186, 14%, 43%);
+$dark-grayish-cyan-2: hsl(184, 14%, 56%);
+$light-grayish-cyan-1: hsl(185, 41%, 84%);
+$light-grayish-cyan-2: hsl(189, 41%, 97%);
+$white: hsl(0, 0%, 100%);
+$red: hsl(0, 48%, 64%);
+
+// Border radius sizes
+$small-border-radius: 5px;
+$medium-border-radius: 15px;
+$big-border-radius: 20px;
+
+// Font sizes
+$very-small-font-size: 12px;
+$small-font-size: 13px;
+$medium-font-size: 24px;
+$big-font-size: 35px;
+
+:root {
+	--very-dark-cyan: hsl(183, 100%, 15%);
+	--strong-cyan: hsl(172, 67%, 45%);
+	--strong-cyan-2: hsl(173, 42%, 54%);
+	--red: hsl(0, 48%, 64%);
+	--white: hsl(0, 0%, 100%);
+}
