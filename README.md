@@ -1,5 +1,22 @@
-# Tip calculator app
+<h1 align="center"> Frontend Mentor - Tip Calculator App </h1>
 
-This is a [Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX) built with HTML, SCSS and JavaScript.
+This is a solution to the [Tip calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-This site can be found [here](https://tca-frontend-mentor.netlify.app/).
+![](https://raw.githubusercontent.com/paladinescamila/Tip-Calculator-App/main/img/screenshoot.png)
+
+## Links
+
+-   [Solution URL](https://github.com/paladinescamila/Tip-Calculator-App)
+-   [Live Site URL](https://tca-frontend-mentor.netlify.app/)
+
+## Built with
+
+-   HTML
+-   SCSS
+-   JavaScript
+
+## Author
+
+-   Website - [camilapaladines.netlify.app](https://camilapaladines.netlify.app/)
+-   Frontend Mentor - [@paladinescamila](https://www.frontendmentor.io/profile/paladinescamila)
+-   LinkedIn - [@paladinescamila](https://co.linkedin.com/in/paladinescamila)
