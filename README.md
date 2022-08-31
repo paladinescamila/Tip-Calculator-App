@@ -6,8 +6,8 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 ## Links
 
--   [Solution URL](https://github.com/paladinescamila/Tip-Calculator-App)
--   [Live Site URL](https://tca-frontend-mentor.netlify.app/)
+-   [Solution](https://www.frontendmentor.io/solutions/tip-calculator-app-ZQmiIizE9)
+-   [Live Site](https://tca-frontend-mentor.netlify.app/)
 
 ## Built with
 
